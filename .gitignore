@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+data/raw/
+data/split_5s/
+data/embeddings/
+data/embedding_metadata.csv
+# secrets / local
+android/app/google-services.json
+local.properties
+*.jks
+*.keystore
+.env
+
+# large datasets (not included)
+ai/data/
